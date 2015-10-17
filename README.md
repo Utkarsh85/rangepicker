@@ -9,3 +9,7 @@ Usage:
 ```html
 <range-picker startdate="sdate" enddate="edate"></range-picker>
 ```
+
+```javascript
+angular.module('Mymodule',['ut.rangepicker'])
+```
