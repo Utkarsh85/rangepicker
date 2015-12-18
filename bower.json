@@ -1,0 +1,9 @@
+{
+  "name": "rangepicker",
+  "main": ["rangepicker.css","rangepicker.js"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Utkarsh85/rangepicker.git"
+  },
+  "license": "Apache-2.0",
+}
