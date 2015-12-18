@@ -5,5 +5,19 @@
     "type": "git",
     "url": "https://github.com/Utkarsh85/rangepicker.git"
   },
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "ignore": [
+    ".sh",
+    ".*",
+    "*.bat",
+    "*.md",
+    "*.txt",
+    "*.log",
+    "package.json",
+    "node_modules",
+    "doc",
+    "examples",
+    "src",
+    "tests"
+  ]
 }
