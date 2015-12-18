@@ -176,11 +176,10 @@
             },
             restrict:'E',
             replace:true,
-            // template:'<div class="rangepicker">'
-            //             +'<date-picker ng-model="sdate" format-date="dateformatter" on-date-selected="sdatefunction()"></date-picker>'
-            //             +'<date-picker ng-model="edate" format-date="dateformatter" on-date-selected="edatefunction()"></date-picker>'
-            //         +'</div>',
-            templateUrl:'views/rangePicker.html',
+            template:'<div class="rangepicker">'
+                        +'<date-picker ng-model="sdate" format-date="dateformatter" on-date-selected="sdatefunction()"></date-picker>'
+                        +'<date-picker ng-model="edate" format-date="dateformatter" on-date-selected="edatefunction()"></date-picker>'
+                    +'</div>',
             controller:['$scope',function ($scope) {
                 $scope.edate=new Date();
                 $scope.sdate=new Date($scope.edate.getFullYear(),$scope.edate.getMonth(),$scope.edate.getDate()-7);
